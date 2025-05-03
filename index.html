@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya Seth | UI/UX Designer & Developer</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="dark-theme">
+    <!-- Cursor Animation -->
+    <div class="cursor-dot-outline"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Background Elements -->
+    <div class="bg-elements">
+      <div class="bg-circle circle-1"></div>
+      <div class="bg-circle circle-2"></div>
+      <div class="bg-circle circle-3"></div>
+      <div class="bg-grid"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-content">
+          <a href="#" class="logo">
+            <span class="logo-text"
+              >Aditya Seth<span class="accent">.</span></span
+            >
+          </a>
+          <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#hero" class="nav-link active">Home</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+            <div class="hero-intro">
+              <span class="greeting">Hello, I'm</span>
+            </div>
+            <h1 class="hero-title">
+              <span class="name">Aditya Seth</span>
+              <div class="title-wrapper">
+                <span class="job-title">UI/UX Designer</span>
+                <span class="job-title">& Developer</span>
+              </div>
+            </h1>
+            <p class="hero-subtitle">
+              Crafting Experiences Through UI/UX design & Development.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">
+                <span>View My Work</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <span>Contact Me</span>
+              </a>
+            </div>
+          </div>
+          <div
+            class="hero-image"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <div class="image-wrapper">
+              <img
+                src="./images/aditya_seth.jpg"
+                alt="Alex Morgan"
+              />
+              <div class="image-shape"></div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="1000">
+          <span>Scroll Down</span>
+          <i class="fas fa-chevron-down bounce"></i>
+        </div>
+      </div>
+      <div class="hero-background"></div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-subtitle">My Expertise</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-description">
+            I've spent several years honing my skills in design and development.
+            Here's what I bring to the table.
+          </p>
+        </div>
+
+        <div class="skills-container">
+          <div class="skills-layout" data-aos="fade-up" data-aos-delay="100">
+            <!-- Skill Categories Tabs - Left Side -->
+            <div class="skill-tabs-vertical">
+              <button class="skill-tab active" data-category="design">
+                <span class="tab-icon"><i class="fas fa-palette"></i></span>
+                <span class="tab-label">Design</span>
+              </button>
+              <button class="skill-tab" data-category="development">
+                <span class="tab-icon"><i class="fas fa-code"></i></span>
+                <span class="tab-label">Development</span>
+              </button>
+              <button class="skill-tab" data-category="tools">
+                <span class="tab-icon"><i class="fas fa-toolbox"></i></span>
+                <span class="tab-label">Tools</span>
+              </button>
+            </div>
+
+            <!-- Skill Content - Right Side -->
+            <div
+              class="skill-content-wrapper"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <!-- Design Skills -->
+              <div class="skill-content active" id="design-skills">
+                <div class="skills-grid">
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h4>UI Design</h4>
+                  </div>
+
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-users"></i>
+                    </div>
+                    <h4>UX Research</h4>
+                  </div>
+
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-hand-pointer"></i>
+                    </div>
+                    <h4>Interaction Design</h4>
+                  </div>
+
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h4>Wireframing</h4>
+                  </div>
+
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h4>Prototyping</h4>
+                  </div>
+
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-universal-access"></i>
+                    </div>
+                    <h4>Accessibility</h4>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Development Skills -->
+              <div class="skill-content" id="development-skills">
+                <div class="skills-grid">
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fab fa-html5"></i>
+                    </div>
+                    <h4>HTML5</h4>
+                  </div>
+
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h4>CSS3</h4>
+                  </div>
+
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fab fa-js"></i>
+                    </div>
+                    <h4>JavaScript</h4>
+                  </div>
+
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fab fa-react"></i>
+                    </div>
+                    <h4>React</h4>
+                  </div>
+
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h4>Responsive Design</h4>
+                  </div>
+
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fab fa-sass"></i>
+                    </div>
+                    <h4>SASS/SCSS</h4>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tools Skills -->
+              <div class="skill-content" id="tools-skills">
+                <div class="skills-grid">
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fab fa-figma"></i>
+                    </div>
+                    <h4>Figma</h4>
+                  </div>
+
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fab fa-adobe">XD</i>
+                    </div>
+                    <h4>Adobe XD</h4>
+                  </div>
+
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h4>Photoshop</h4>
+                  </div>
+
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-bezier-curve"></i>
+                    </div>
+                    <h4>Illustrator</h4>
+                  </div>
+
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fab fa-github"></i>
+                    </div>
+                    <h4>Git/GitHub</h4>
+                  </div>
+
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="">Z</i>
+                    </div>
+                    <h4>Zeplin</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-subtitle">Work History</span>
+          <h2 class="section-title">My Experience</h2>
+          <p class="section-description">
+            A journey through my professional career in design and development.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- Experience Item 1 -->
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-title">UI/UX Designer & Developer</h3>
+                <span class="timeline-period">April 2024 - Present</span>
+              </div>
+              <p class="timeline-company">MChamp Entertainment Pvt. Ltd.</p>
+              <p class="timeline-description">
+                Designed and developed a comprehensive app and website with 400+
+                user-friendly screens, ensuring a seamless UX/UI experience.<br /><br />
+                Created responsive, pixel-perfect designs for web and mobile
+                applications using HTML, CSS, JavaScript, and modern design
+                tools like Figma, Adobe XD, and Sketch.<br /><br />
+                Collaborated closely with backend developers to integrate
+                frontend components with server-side systems efficiently.<br /><br />
+                Built reusable UI components and a modular design system to
+                improve development speed and scalability.<br /><br />
+                Delivered high-quality solutions within tight deadlines,
+                maintaining industry standards in both design and development.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">UI Design</span>
+                <span class="tag">UX Research</span>
+                <span class="tag">Team Leadership</span>
+                <span class="tag">App Design</span>
+                <span class="tag">Wireframing </span>
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">Responsive</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">BootStrap</span>
+                <span class="tag">Adobe XD</span>
+                <span class="tag">Figma</span>
+                <span class="tag">Zeplin</span>
+                <span class="tag">PhotoShop</span>
+                <span class="tag">Website Design & Development</span>
+                <span class="tag">App Design</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience Item 2 -->
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-title">FRONTEND DESIGNER & DEVELOPER</h3>
+                <span class="timeline-period">Aug 2023 - March 2024</span>
+              </div>
+              <p class="timeline-company">Ethical Webtech Services Pvt. Ltd.</p>
+              <p class="timeline-description">
+                Designed and developed modern, user-friendly interfaces using
+                HTML5, CSS3, JavaScript, and Bootstrap, ensuring adherence to
+                web standards.<br /><br />
+                Created interactive prototypes and wireframes using Figma and
+                Adobe XD, facilitating seamless client collaboration and
+                feedback.<br /><br />
+                Collaborated with cross-functional teams to translate UI/UX
+                designs into responsive and interactive web applications.<br /><br />
+                Focused on responsive design and accessibility, enhancing the
+                user experience across multiple devices.<br /><br />
+                Collaborated with cross-functional teams to translate UI/UX
+                designs into responsive and interactive web applications.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">UI/UX Design</span>
+                <span class="tag">Adobe XD</span>
+                <span class="tag">Figma</span>
+                <span class="tag">Zeplin</span>
+                <span class="tag">PhotoShop</span>
+                <span class="tag">Website Design & Development</span>
+                <span class="tag">App Design</span>
+                <span class="tag">Wireframing </span>
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">Responsive</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">BootStrap</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-footer" data-aos="fade-up" data-aos-delay="400">
+          <a
+            href="./aditya_resume_ui.pdf"
+            download="Aditya_Seth_Resume.pdf"
+            class="btn btn-outline"
+          >
+            <i class="fas fa-download"></i>
+            <span>Download Resume</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-subtitle">My Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-description">
+            A selection of my most recent and impactful design work.
+          </p>
+        </div>
+
+        <div class="projects-filter" data-aos="fade-up" data-aos-delay="100">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="ui-design">UI Design</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="mobile">Mobile</button>
+        </div>
+
+        <div class="projects-grid">
+
+           <!-- Project Card 1 -->
+           <div
+           class="project-card"
+           data-aos="fade-up"
+           data-aos-delay="100"
+           data-category="ui-design mobile"
+         >
+           <div class="project-image">
+             <img src="./images/aaharkosh_website.png" alt="Gamifly Gaming Site" />
+             <div class="project-overlay">
+               <div class="overlay-content">
+                 <a
+                   href="https://aaharkosh.onrender.com/"
+                   class="project-link-icon"
+                 >
+                   <i class="fas fa-eye"></i>
+                 </a>
+               </div>
+             </div>
+           </div>
+           <div class="project-content">
+             <h3 class="project-title">Food Delivery App UI Design</h3>
+             <p class="project-description">
+              Designed a clean and intuitive food delivery website with seamless navigation, meal customization, and responsive UI.
+             </p>
+             <div class="project-tags">
+               <span class="tag">UI Design</span>
+               <span class="tag">UX Research</span>
+               <span class="tag">Mobile App</span>
+             </div>
+             <a
+               href="https://aaharkosh.onrender.com/"
+               class="project-link"
+             >
+               View Case Study <i class="fas fa-arrow-right"></i>
+             </a>
+           </div>
+         </div>
+
+
+          <!-- Project Card 2 -->
+          <div
+            class="project-card"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-category="ui-design mobile"
+          >
+            <div class="project-image">
+              <img src="./images/food_app.jpg" alt="Gamifly Gaming Site" />
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <a
+                    href="https://www.figma.com/design/FWWIMXyuCzbTT7l9WhhJ9A/Aaharkosh?node-id=0-1&t=X3zRBWt8cGv4HpMy-1"
+                    class="project-link-icon"
+                  >
+                    <i class="fas fa-eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Food Delivery App UI Design</h3>
+              <p class="project-description">
+                Designed an intuitive food delivery app UI focused on seamless
+                ordering, meal selection, and real-time tracking.
+              </p>
+              <div class="project-tags">
+                <span class="tag">UI Design</span>
+                <span class="tag">UX Research</span>
+                <span class="tag">Mobile App</span>
+              </div>
+              <a
+                href="https://www.figma.com/design/FWWIMXyuCzbTT7l9WhhJ9A/Aaharkosh?node-id=0-1&t=X3zRBWt8cGv4HpMy-1"
+                class="project-link"
+              >
+                View Case Study <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+
+            <!-- Project Card 3 -->
+            <div
+            class="project-card"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-category="ui-design web"
+          >
+            <div class="project-image">
+              <img src="./images/cricgiri.png" alt="Cricket App design" />
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.cricgiri.live.score&pcampaignid=web_share"
+                    class="project-link-icon"
+                  >
+                    <i class="fas fa-eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Cricket App design</h3>
+              <p class="project-description">
+                Designed CricGiri, a fantasy cricket app with intuitive UI/UX,
+                enabling smooth team creation, real-time updates, and user
+                engagement.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Web Design</span>
+                <span class="tag">UI/UX</span>
+                <span class="tag">Responsive</span>
+              </div>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.cricgiri.live.score&pcampaignid=web_share"
+                class="project-link"
+              >
+                View Case Study <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+
+          <!-- Project Card 4 -->
+          <div
+            class="project-card"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-category="ui-design mobile"
+          >
+            <div class="project-image">
+              <img src="./images/food_app.jpg" alt="Gamifly Gaming Site" />
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <a
+                    href="https://www.figma.com/design/FWWIMXyuCzbTT7l9WhhJ9A/Aaharkosh?node-id=1-6023&t=X3zRBWt8cGv4HpMy-1"
+                    class="project-link-icon"
+                  >
+                    <i class="fas fa-eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                Food Delivery Vendor and delivery App UI Design
+              </h3>
+              <p class="project-description">
+                Designed an intuitive food delivery app UI focused on seamless
+                ordering, meal selection, and real-time tracking.
+              </p>
+              <div class="project-tags">
+                <span class="tag">UI Design</span>
+                <span class="tag">UX Research</span>
+                <span class="tag">Mobile App</span>
+              </div>
+              <a
+                href="https://www.figma.com/design/FWWIMXyuCzbTT7l9WhhJ9A/Aaharkosh?node-id=1-6023&t=X3zRBWt8cGv4HpMy-1"
+                class="project-link"
+              >
+                View Case Study <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Card 5 -->
+          <div
+            class="project-card"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-category="ui-design mobile"
+          >
+            <div class="project-image">
+              <img src="./images/gamfly_bg.jpg" alt="Gamifly Gaming Site" />
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <a href="https://www.gamifly.xyz/" class="project-link-icon">
+                    <i class="fas fa-eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Gamifly Gaming Site</h3>
+              <p class="project-description">
+                Redesigned Gamifly with a focus on UX and accessibility;
+                integrated into Opera MiniPay, enabling users to play games and
+                earn rewards seamlessly.
+              </p>
+              <div class="project-tags">
+                <span class="tag">UI Design</span>
+                <span class="tag">UX Research</span>
+                <span class="tag">Mobile App</span>
+              </div>
+              <a href="https://www.gamifly.xyz/" class="project-link">
+                View Case Study <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Card 6 -->
+          <div
+            class="project-card"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-category="ui-design web"
+          >
+            <div class="project-image">
+              <img
+                src="./images/playgeet.png"
+                alt="Playgeet -- Music Website"
+              />
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <a href="https://playgeet.com/" class="project-link-icon">
+                    <i class="fas fa-eye"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Playgeet -- Music Website</h3>
+              <p class="project-description">
+                Designed and developed PlayGeet, a sleek, user-friendly music
+                streaming platform with responsive UI/UX.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Responsive</span>
+                <span class="tag">Web Design</span>
+                <span class="tag">UI Design</span>
+              </div>
+              <a href="https://playgeet.com/" class="project-link">
+                View Website <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-footer" data-aos="fade-up" data-aos-delay="500">
+          <a href="#" class="btn btn-primary">
+            <span>View All Projects</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-subtitle">Say Hello</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-description">
+            Have a project in mind? I'd love to hear about it.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Information -->
+          <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+            <div class="card">
+              <h3 class="card-title">Contact Information</h3>
+              <p class="card-subtitle">
+                Feel free to reach out through any of these channels.
+              </p>
+
+              <div class="contact-items">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="contact-details">
+                    <p class="contact-label">Email</p>
+                    <p class="contact-value">
+                      <a href="mailto:adityaseth2405@gmail.com">
+                        adityaseth2405@gmail.com
+                      </a>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fab fa-linkedin"></i>
+                  </div>
+                  <div class="contact-details">
+                    <p class="contact-label">LinkedIn</p>
+                    <p class="contact-value">
+                      <a
+                        href="https://www.linkedin.com/in/aditya-seth-1a7a33217/"
+                      >
+                        linkedin.com/in/aditya_seth
+                      </a>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fab fa-github"></i>
+                  </div>
+                  <div class="contact-details">
+                    <p class="contact-label">GitHub</p>
+                    <p class="contact-value">
+                      <a href="https://github.com/aditya359542">
+                        github.com/aditya_seth
+                      </a>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fab fa-behance"></i>
+                  </div>
+                  <div class="contact-details">
+                    <p class="contact-label">Behance</p>
+                    <p class="contact-value">
+                      <a href="https://www.behance.net/adityaseth1"
+                        >behance.net/adityaseth1</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div
+            class="contact-form-container"
+            data-aos="fade-left"
+            data-aos-delay="200"
+          >
+            <div class="card">
+              <h3 class="card-title">Send a Message</h3>
+              <p class="card-subtitle">
+                I'll get back to you as soon as possible.
+              </p>
+
+              <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <div class="input-wrapper">
+                    <i class="fas fa-user"></i>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Your name"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <div class="input-wrapper">
+                    <i class="fas fa-envelope"></i>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Your email"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <div class="input-wrapper">
+                    <i class="fas fa-bookmark"></i>
+                    <input
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      placeholder="Subject"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <div class="input-wrapper">
+                    <i class="fas fa-comment-alt"></i>
+                    <textarea
+                      id="message"
+                      name="message"
+                      placeholder="Your message"
+                      rows="5"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">
+                  <span>Send Message</span>
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </form>
+
+              <div id="formSuccess" class="form-success">
+                <div class="success-icon">
+                  <i class="fas fa-check-circle"></i>
+                </div>
+                <h4>Message Sent!</h4>
+                <p>
+                  Thank you for reaching out. I'll respond to your message soon.
+                </p>
+                <button id="sendAnother" class="btn btn-outline">
+                  Send Another Message
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <span class="logo-text"
+              >Portfolio<span class="accent">.</span></span
+            >
+            <p class="footer-tagline">
+              Hey, I'm <span>Aditya Seth,</span> a UI/UX Designer & Frontend
+              Developer from Bhopal with 2+ years of experience crafting
+              user-friendly digital experiences.<br />
+              <br />
+
+              I specialize in Figma, Adobe XD, HTML, CSS, JavaScript, and
+              Bootstrap, with expertise in GSAP, Locomotive Scroll, WordPress,
+              Framer, and Webflow for interactive and responsive designs.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-nav">
+              <h4>Navigation</h4>
+              <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-social">
+              <h4>Social</h4>
+              <div class="social-links">
+                <a href="https://github.com/aditya359542" class="social-link"
+                  ><i class="fab fa-github"></i
+                ></a>
+
+                <a
+                  href="https://www.linkedin.com/in/aditya-seth-1a7a33217/"
+                  class="social-link"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a
+                  href="https://dribbble.com/__aditya__seth__"
+                  class="social-link"
+                  ><i class="fab fa-dribbble"></i
+                ></a>
+                <a
+                  href="https://www.behance.net/adityaseth1"
+                  class="social-link"
+                  ><i class="fab fa-behance"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            © <span id="currentYear"></span> Aditya Seth | All rights reserved.
+          </p>
+          <a href="#hero" class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
